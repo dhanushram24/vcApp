@@ -55,7 +55,8 @@ const Signup = () => {
                 alert(err);
             });
           };
-  /* const submitHandler = async () => {
+
+/* const submitHandler = async () => {
   setPicLoading(true);
   if (!name || !email || !password || !confirmpassword) {
     toast({
@@ -130,7 +131,6 @@ const Signup = () => {
     setPicLoading(false);
   }
 }; */
-
 
   const postDetails = (pics) => {
     setPicLoading(true);
@@ -249,5 +249,4 @@ const Signup = () => {
     </VStack>
   );
 };
-
 export default Signup;
